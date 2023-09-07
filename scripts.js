@@ -43,12 +43,12 @@ tiles.forEach(tile => {
         setTimeout(() => {
           const winner = tiles[winnerCombination[0]].textContent;
           alert(`Player ${winner} wins!`);
-        }, 100);
+        }, 500);
       } else if (isDraw) {
         gameOver = true;
         setTimeout(() => {
           alert(`It's a draw!`);
-        }, 100);
+        }, 500);
       }
     }
   });
